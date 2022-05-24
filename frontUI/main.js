@@ -44,6 +44,7 @@ function 타이머(){
 } 
 
 
+
 function 업데이트(){
     const hours = Math.floor(time/3600);
     const checkMinute = Math.floor(time/60);
