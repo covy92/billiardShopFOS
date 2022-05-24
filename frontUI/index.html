@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="timer.js"></script>
+</head>
+<body>
+    <div>
+        <button>메뉴</button>
+        <button>설정</button>
+        <button>관리</button>
+    </div>
+    <div>
+        다이 갯수 설정 :
+        <!-- 관리자 권한중에 superior(사장급) 이하는 기능이 불가능하게 만들어야 함 -->
+        <button class="버튼" onclick="다이추가()">+</button>
+        <button class="버튼" onclick="다이삭제()">-</button>
+    </div>
+
+    <div class="프레임">
+        <div class="다이">
+            샘플 다이
+            <button class="버튼" onclick="타이머()">go</button>
+            <button class="버튼" onclick="결제하기()">결제</button>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
