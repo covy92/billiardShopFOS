@@ -41,7 +41,8 @@ function 타이머(){
         타이머상태 = 'off'
         clearInterval(시간표시)
     }
-}
+} 
+
 
 function 업데이트(){
     const hours = Math.floor(time/3600);
