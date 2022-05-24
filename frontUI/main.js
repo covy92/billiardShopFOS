@@ -55,13 +55,3 @@ function 업데이트(){
     타이머박스.innerHTML = `${hours}:${minute}:${seconds}`
 }
 
-
-function 결제하기(){
-    let 요금방식 = 
-    let 타이머박스=document.querySelector(".타이머박스")
-    let 시간=타이머박스.time
-    if (요금방식 ='카드할인')
-    
-    alert()
-    타이머박스.innerHTML = `${hours}:${minute}:${seconds}`
-}
