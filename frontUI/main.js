@@ -1,5 +1,4 @@
 
-
 function 다이추가(){
 
     let 타겟=document.querySelector(".프레임")
@@ -20,6 +19,7 @@ function 다이삭제(){
     let 타겟=document.querySelector(".프레임")
     let 타겟다이=document.querySelectorAll(".다이")
     let 마지막 = 타겟다이.length-1
+    if (!마지막) return
     타겟.removeChild(타겟다이[마지막]);
 }
 
@@ -27,6 +27,7 @@ let time = 0;
 
 function 타이머(){
     let 타이머상태 = 'off'
+    let 시간표시
 
     if (타이머상태==='off') {
         // 온으로 바뀌고 켜지게 만들기
@@ -54,4 +55,3 @@ function 업데이트(){
     let 타이머박스=document.querySelector(".타이머박스")
     타이머박스.innerHTML = `${hours}:${minute}:${seconds}`
 }
-

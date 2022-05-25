@@ -6,6 +6,14 @@
     <link href="style.css" rel="stylesheet">
     <script src="main.js"></script>
     <script src="timer.js"></script>
+    <script src="popup.js"></script>
+
+    <script>
+        function 결제(){
+
+        }
+
+    </script>
 </head>
 <body>
     <div>
@@ -25,7 +33,15 @@
             샘플 다이
             
             <button class="버튼" onclick="타이머()">go</button>
-            <button class="버튼" onclick="결제하기()">결제</button>
+            <div>
+                <select name="결제체크" id="결제체크" onchange="함수">
+                    <option value="일반요금">일반요금</option>
+                    <option value="경로할인">경로할인</option>
+                    <option value="현금할인">현금할인</option>
+                </select>
+                <button class="버튼" onclick="결제하기()">결제 </button>
+            </div>
+           
             <div class="타이머박스"></div>
         </div>
     </div>
